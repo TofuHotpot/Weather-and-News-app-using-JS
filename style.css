@@ -1,0 +1,104 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #1a2858;
+    background-color: #b2e5fd;
+}
+
+.weather-header {
+    width: 100%; 
+  
+}
+
+.search-header {
+    background-color: #1e81b0; 
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.search-box {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.search-input, .search-button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    transition: all 0.3s ease; 
+}
+
+.search-input {
+    border: 2px solid #ffffff; 
+    background-color: transparent; 
+    color: #ffffff;
+    width: 250px; 
+}
+
+.search-input:focus {
+    background-color: #ffffff;
+    color: #1e81b0;
+    outline: none; 
+}
+
+.search-button {
+    background-color: #276f86; 
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.search-button:hover, .search-button:focus {
+    background-color: #1e81b0; 
+    outline: none;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.weather-result, .news-result {
+    padding: 15px;
+    margin: 10px;
+    flex-basis: 45%; 
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow-y: auto;
+}
+
+.news-article {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease; 
+}
+
+.news-article h3, .news-article p, .news-article a {
+    margin: 10px 0;
+}
+
+.news-article a {
+    color: #276f86; 
+    text-decoration: none;
+}
+
+.news-article a:hover {
+    text-decoration: underline;
+    color: #1e81b0; 
+}
+
+.news-article:hover {
+    transform: translateY(-5px); 
+}

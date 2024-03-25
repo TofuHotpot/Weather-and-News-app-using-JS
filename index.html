@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather & News App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1></h1>
+    <div class="search-header">
+        <h2 class="weather-header">Weather and News Today</h2>
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter a city name..." class="search-input">
+            <button onclick="getWeather()" class="search-button">Search</button>
+        </div>
+    </div>
+    <div class="content">
+        <div id="weatherResult" class="weather-result"></div>
+        <div id="newsResult" class="news-result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
